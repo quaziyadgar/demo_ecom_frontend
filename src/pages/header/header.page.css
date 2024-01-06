@@ -19,20 +19,27 @@
   margin-botom: 30px;
 }
 
-.hero .hero-img-wrap:after {
-  top: -40px;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
 }
 
-.hero .hero-img-wrap:after {
+.hero .hero-img-wrap {
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+
+.img-dot {
   content: "";
   position: absolute;
   width: 255px;
   height: 217px;
-  background-image: url("../../assets/dots-light.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  right: -100px;
-  top: 0px;
+  right: -3rem;
+  top: 2rem;
+  z-index: 1;
 }
 
 .btn.btn-secondary {

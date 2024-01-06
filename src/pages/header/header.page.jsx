@@ -1,5 +1,6 @@
 import React from "react";
 import couch from "../../assets/couch.png";
+import dotSquare from "../../assets/dots-light.svg"
 import { Navbar } from "../../components";
 
 import "./header.page.css";
@@ -34,6 +35,7 @@ export const Header = () => {
             <div className="col-lg-7">
               <div className="hero-img-wrap">
                 <img src={couch} className="img-fluid" />
+                <img src={dotSquare} alt="" className="img-dot" />
               </div>
             </div>
           </div>
