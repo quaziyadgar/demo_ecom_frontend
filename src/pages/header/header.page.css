@@ -1,0 +1,54 @@
+.hero {
+  background: #3b5d50;
+  padding: calc(4rem - 30px) 0 0rem 0;
+}
+
+.hero .intro-excerpt {
+  position: relative;
+  z-index: 4;
+}
+
+.hero h1 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-botom: 30px;
+}
+
+.hero .hero-img-wrap:after {
+  top: -40px;
+}
+
+.hero .hero-img-wrap:after {
+  content: "";
+  position: absolute;
+  width: 255px;
+  height: 217px;
+  background-image: url("../../assets/dots-light.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: -100px;
+  top: 0px;
+}
+
+.btn.btn-secondary {
+  color: #2f2f2f;
+  background: #f9bf29;
+  border-color: #f9bf29;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+.btn.btn-white-outline {
+  color: #fff;
+  background: #3b5d50;
+  border-color: #bcb6b6;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
