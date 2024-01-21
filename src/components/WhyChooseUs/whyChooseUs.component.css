@@ -1,0 +1,49 @@
+why-choose-section {
+    padding: 7rem 0;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature .icon:before {
+    content: "";
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    background: rgba(59, 93, 80, 0.2);
+    border-radius: 50%;
+    right: -8px;
+    bottom: 0;
+}
+
+.feature .icon {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.section-title {
+    color: #2f2f2f;
+}
+
+.why-choose-section .img-wrap {
+    position: relative;
+}
+
+.why-choose-section .img-wrap img {
+    border-radius: 20px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
