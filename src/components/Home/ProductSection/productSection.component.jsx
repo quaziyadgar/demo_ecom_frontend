@@ -1,10 +1,10 @@
 import React from "react";
 // import { div } from "react-router-dom";
 
-import product1 from "../../assets/product-1.png";
-import product2 from "../../assets/product-2.png";
-import product3 from "../../assets/product-3.png";
-import crossIcon from "../../assets/cross.svg";
+import product1 from "assets/product-1.png";
+import product2 from "assets/product-2.png";
+import product3 from "assets/product-3.png";
+import crossIcon from "assets/cross.svg";
 
 import "./productSection.component.css";
 

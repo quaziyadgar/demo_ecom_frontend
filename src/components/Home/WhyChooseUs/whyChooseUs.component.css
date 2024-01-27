@@ -1,4 +1,4 @@
-why-choose-section {
+.why-choose-section {
     padding: 7rem 0;
 }
 
@@ -33,6 +33,20 @@ why-choose-section {
 
 .why-choose-section .img-wrap {
     position: relative;
+}
+
+.why-choose-section .img-wrap:before {
+    position: absolute;
+    content: "";
+    width: 255px;
+    height: 217px;
+    background-image: url(assets/dots-yellow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    z-index: -1;
 }
 
 .why-choose-section .img-wrap img {

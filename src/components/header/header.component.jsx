@@ -1,8 +1,8 @@
 import React from "react";
-import couch from "../../assets/couch.png";
-import dotSquare from "../../assets/dots-light.svg"
-import { Navbar } from "../../components";
-import "./header.page.css";
+import couch from "assets/couch.png";
+import dotSquare from "assets/dots-light.svg"
+import { Navbar } from "..";
+import "./header.component.css";
 
 export const Header = () => {
   return (
