@@ -1,6 +1,8 @@
 import React from "react";
-import sofaImage from "assets/footer/sofa.png"
-import envelopeImage from "assets/footer/envelope-outline.svg"
+
+import { Link } from "react-router-dom";
+import sofaImage from "assets/footer/sofa.png";
+import envelopeImage from "assets/footer/envelope-outline.svg";
 
 import "./footer.component.css";
 
@@ -17,11 +19,7 @@ export const Footer = () => {
               <div className="subscription-form">
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
-                    <img
-                      src={envelopeImage}
-                      alt=""
-                      className="img-fluid"
-                    />
+                    <img src={envelopeImage} alt="" className="img-fluid" />
                   </span>
                   <span>Subscribe to Newsletter</span>
                 </h3>
@@ -52,9 +50,9 @@ export const Footer = () => {
           <div className="row g-5 mb-5">
             <div className="col-lg-4">
               <div className="mb-4 footer-logo-wrap">
-                <a href="#" className="footer-logo">
+                <Link to="#" className="footer-logo">
                   Furni<span>.</span>
-                </a>
+                </Link>
               </div>
               <p className="mb-4">
                 Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
@@ -64,24 +62,24 @@ export const Footer = () => {
               </p>
               <ul className="list-unstyled custom-social">
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <span className="fa fa-brands fa-facebook-f" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <span className="fa fa-brands fa-twitter" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <span className="fa fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <span className="fa fa-brands fa-linkedin" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -90,58 +88,58 @@ export const Footer = () => {
                 <div className="col-6 col-sm-6 col-md-3">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">About us</a>
+                      <Link to="#">About us</Link>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <Link to="#">Services</Link>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <Link to="#">Blog</Link>
                     </li>
                     <li>
-                      <a href="#">Contact us</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-6 col-sm-6 col-md-3">
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#">Support</a>
-                    </li>
-                    <li>
-                      <a href="#">Knowledge base</a>
-                    </li>
-                    <li>
-                      <a href="#">Live chat</a>
+                      <Link to="#">Contact us</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col-6 col-sm-6 col-md-3">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">Jobs</a>
+                      <Link to="#">Support</Link>
                     </li>
                     <li>
-                      <a href="#">Our team</a>
+                      <Link to="#">Knowledge base</Link>
                     </li>
                     <li>
-                      <a href="#">Leadership</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
+                      <Link to="#">Live chat</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col-6 col-sm-6 col-md-3">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">Nordic Chair</a>
+                      <Link to="#">Jobs</Link>
                     </li>
                     <li>
-                      <a href="#">Kruzo Aero</a>
+                      <Link to="#">Our team</Link>
                     </li>
                     <li>
-                      <a href="#">Ergonomic Chair</a>
+                      <Link to="#">Leadership</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Privacy Policy</Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-6 col-sm-6 col-md-3">
+                  <ul className="list-unstyled">
+                    <li>
+                      <Link to="#">Nordic Chair</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Kruzo Aero</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Ergonomic Chair</Link>
                     </li>
                   </ul>
                 </div>
@@ -153,18 +151,18 @@ export const Footer = () => {
               <div className="col-lg-6">
                 <p className="mb-2 text-center text-lg-start">
                   Copyright ©2024. All Rights Reserved. — Designed with love by{" "}
-                  <a href="https://untree.co">Untree.co</a> Distributed By{" "}
-                  <a hreff="https://themewagon.com">ThemeWagon</a>{" "}
+                  <Link to="https://untree.co">Untree.co</Link> Distributed By{" "}
+                  <Link hreff="https://themewagon.com">ThemeWagon</Link>{" "}
                   {/* License information: https://untree.co/license/ */}
                 </p>
               </div>
               <div className="col-lg-6 text-center text-lg-end">
                 <ul className="list-unstyled d-inline-flex ms-auto">
                   <li className="me-4">
-                    <a href="#">Terms &amp; Conditions</a>
+                    <Link to="#">Terms &amp; Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link to="#">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>

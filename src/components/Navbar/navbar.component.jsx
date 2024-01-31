@@ -1,4 +1,6 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { User, ShoppingCart } from "react-feather";
@@ -11,26 +13,28 @@ export const MyNavbar = () => {
     <>
       <Navbar className="navbar">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             Furni<span>.</span>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav className="">
-              <Nav.Link href="#home" className="active">
+              <Link to="/" className="active">
                 Home
-              </Nav.Link>
-              <Nav.Link href="#shop" className="onHover">Shop</Nav.Link>
-              <Nav.Link href="#about">About us</Nav.Link>
-              <Nav.Link href="#services">Services</Nav.Link>
-              <Nav.Link href="#blog">Blog</Nav.Link>
-              <Nav.Link href="#contact">Contact us</Nav.Link>
-              <Nav.Link href="#user">
+              </Link>
+              <Link to="/shop" className="onHover">
+                Shop
+              </Link>
+              <Link to="/about">About us</Link>
+              <Link to="/services">Services</Link>
+              <Link to="/blog">Blog</Link>
+              <Link to="/contact">Contact us</Link>
+              <Link to="/user">
                 <User className="nav-icon" />
-              </Nav.Link>
-              <Nav.Link href="#cart">
+              </Link>
+              <Link to="/cart">
                 <ShoppingCart className="nav-icon" />
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
