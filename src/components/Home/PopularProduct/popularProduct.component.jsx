@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import product1 from "assets/product-1.png";
 import product2 from "assets/product-2.png";
 import product3 from "assets/product-3.png";
@@ -20,10 +22,10 @@ export const PopularProduct = () => {
                   <h3>Nordic Chair</h3>
                   <p>
                     Donec facilisis quam ut purus rutrum lobortis. Donec vitae
-                    odio{" "}
+                    odio
                   </p>
                   <p>
-                    <a href="#">Read More</a>
+                    <Link to="#">Read More</Link>
                   </p>
                 </div>
               </div>
@@ -37,10 +39,10 @@ export const PopularProduct = () => {
                   <h3>Kruzo Aero Chair</h3>
                   <p>
                     Donec facilisis quam ut purus rutrum lobortis. Donec vitae
-                    odio{" "}
+                    odio
                   </p>
                   <p>
-                    <a href="#">Read More</a>
+                    <Link to="#">Read More</Link>
                   </p>
                 </div>
               </div>
@@ -54,10 +56,10 @@ export const PopularProduct = () => {
                   <h3>Ergonomic Chair</h3>
                   <p>
                     Donec facilisis quam ut purus rutrum lobortis. Donec vitae
-                    odio{" "}
+                    odio
                   </p>
                   <p>
-                    <a href="#">Read More</a>
+                    <Link to="#">Read More</Link>
                   </p>
                 </div>
               </div>

@@ -27,7 +27,7 @@
   font-weight: 600;
 }
 
-a {
+.blog-section a {
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
