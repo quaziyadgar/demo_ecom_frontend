@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/demo_ecom_frontend/static/css/main.089c5c74.css",
-    "main.js": "/demo_ecom_frontend/static/js/main.c9bf069e.js",
+    "main.css": "/demo_ecom_frontend/static/css/main.688733d8.css",
+    "main.js": "/demo_ecom_frontend/static/js/main.37f7bc01.js",
     "static/js/787.2aea5c70.chunk.js": "/demo_ecom_frontend/static/js/787.2aea5c70.chunk.js",
     "static/media/img-grid-1.jpg": "/demo_ecom_frontend/static/media/img-grid-1.ad8ba13496a1834763e0.jpg",
     "static/media/fa-solid-900.ttf": "/demo_ecom_frontend/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -27,19 +27,19 @@
     "static/media/dots-green.svg": "/demo_ecom_frontend/static/media/dots-green.fc0a29ccdaf1ec80964e.svg",
     "static/media/dots-yellow.svg": "/demo_ecom_frontend/static/media/dots-yellow.bfc44818a1b6606dd7c1.svg",
     "static/media/dots-light.svg": "/demo_ecom_frontend/static/media/dots-light.9e68432e9cdf801691bd3c6af82f6818.svg",
+    "index.html": "/demo_ecom_frontend/index.html",
     "static/media/support.svg": "/demo_ecom_frontend/static/media/support.9d26dea71aab9142a5629d38f2287c2e.svg",
     "static/media/truck.svg": "/demo_ecom_frontend/static/media/truck.66e1c9ecc38ff585449d328dc23700fc.svg",
     "static/media/envelope-outline.svg": "/demo_ecom_frontend/static/media/envelope-outline.a75c498de4e44335919e66cd96296e67.svg",
-    "index.html": "/demo_ecom_frontend/index.html",
     "static/media/return.svg": "/demo_ecom_frontend/static/media/return.d5d64cfebfacde8f05fd6c4bb3b51521.svg",
     "static/media/bag.svg": "/demo_ecom_frontend/static/media/bag.32d7cc1dfb3dabdcef4ccc1966a6b994.svg",
     "static/media/cross.svg": "/demo_ecom_frontend/static/media/cross.f55a0e29baa16101e78afdaa658f3afb.svg",
-    "main.089c5c74.css.map": "/demo_ecom_frontend/static/css/main.089c5c74.css.map",
-    "main.c9bf069e.js.map": "/demo_ecom_frontend/static/js/main.c9bf069e.js.map",
+    "main.688733d8.css.map": "/demo_ecom_frontend/static/css/main.688733d8.css.map",
+    "main.37f7bc01.js.map": "/demo_ecom_frontend/static/js/main.37f7bc01.js.map",
     "787.2aea5c70.chunk.js.map": "/demo_ecom_frontend/static/js/787.2aea5c70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.089c5c74.css",
-    "static/js/main.c9bf069e.js"
+    "static/css/main.688733d8.css",
+    "static/js/main.37f7bc01.js"
   ]
 }
