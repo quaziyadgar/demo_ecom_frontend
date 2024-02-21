@@ -1,13 +1,11 @@
 import React from "react";
 import couch from "assets/couch.png";
 import dotSquare from "assets/dots-light.svg"
-import { Navbar } from "..";
 import "./header.component.css";
 
 export const Header = () => {
   return (
     <div>
-      <Navbar />
       <div className="hero">
         <div className="container">
           <div className="row justify-content-between">
