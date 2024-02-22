@@ -30,13 +30,14 @@ a.navbar-brand:hover {
   font-weight: 500;
   color: #ffffff !important;
   opacity: 0.5;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  position: relative;
   margin-left: 15px;
   margin-right: 15px;
   text-decoration: none;
+}
+
+.navbar-nav > ul > a {
+  opacity: 1;
 }
 
 .navbar-nav > a:hover {
@@ -44,11 +45,14 @@ a.navbar-brand:hover {
   border-bottom: 4px solid #f9bf29;
 }
 
+.navbar-nav > ul > a:hover {
+  border-bottom: none;
+}
+
 .nav-icon {
   color: #ffffff !important;
   opacity: 1;
 }
-
 
 li.active a:before {
   width: calc(100% - 16px);

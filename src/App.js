@@ -1,4 +1,4 @@
-import { Header, Footer, Navbar } from "components";
+import { Footer, Navbar } from "components";
 import { Home } from "pages";
 import { Shop } from "pages";
 
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router basename="/demo_ecom_frontend">
+      <Router>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
