@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import { Header, Products } from "components";
 
 export const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <>
+      <Header param={false} />
+      <Products />
+    </>
+  );
+};

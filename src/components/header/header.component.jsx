@@ -1,13 +1,14 @@
 import React from "react";
 import couch from "assets/couch.png";
-import dotSquare from "assets/dots-light.svg"
+import dotSquare from "assets/dots-light.svg";
 import "./header.component.css";
 
-export const Header = () => {
+export const Header = ({param = true}) => {
+  console.log(param);
   return (
-    <div>
-      <div className="hero">
-        <div className="container">
+    <div className="hero">
+      <div className="container">
+        {param ? (
           <div className="row justify-content-between">
             <div className="col-lg-5">
               <div className="intro-excerpt">
@@ -36,7 +37,9 @@ export const Header = () => {
               </div>
             </div>
           </div>
-        </div>
+        ) : (
+          <h1 className="pb-5">Shop</h1>
+        )}
       </div>
     </div>
   );
