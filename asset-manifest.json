@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/demo_ecom_frontend/static/css/main.688733d8.css",
-    "main.js": "/demo_ecom_frontend/static/js/main.db6e4357.js",
+    "main.css": "/demo_ecom_frontend/static/css/main.af596c80.css",
+    "main.js": "/demo_ecom_frontend/static/js/main.f2e3e8a6.js",
     "static/js/787.2aea5c70.chunk.js": "/demo_ecom_frontend/static/js/787.2aea5c70.chunk.js",
     "static/media/img-grid-1.jpg": "/demo_ecom_frontend/static/media/img-grid-1.ad8ba13496a1834763e0.jpg",
     "static/media/fa-solid-900.ttf": "/demo_ecom_frontend/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -34,12 +34,12 @@
     "static/media/return.svg": "/demo_ecom_frontend/static/media/return.d5d64cfebfacde8f05fd6c4bb3b51521.svg",
     "static/media/bag.svg": "/demo_ecom_frontend/static/media/bag.32d7cc1dfb3dabdcef4ccc1966a6b994.svg",
     "static/media/cross.svg": "/demo_ecom_frontend/static/media/cross.f55a0e29baa16101e78afdaa658f3afb.svg",
-    "main.688733d8.css.map": "/demo_ecom_frontend/static/css/main.688733d8.css.map",
-    "main.db6e4357.js.map": "/demo_ecom_frontend/static/js/main.db6e4357.js.map",
+    "main.af596c80.css.map": "/demo_ecom_frontend/static/css/main.af596c80.css.map",
+    "main.f2e3e8a6.js.map": "/demo_ecom_frontend/static/js/main.f2e3e8a6.js.map",
     "787.2aea5c70.chunk.js.map": "/demo_ecom_frontend/static/js/787.2aea5c70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.688733d8.css",
-    "static/js/main.db6e4357.js"
+    "static/css/main.af596c80.css",
+    "static/js/main.f2e3e8a6.js"
   ]
 }
