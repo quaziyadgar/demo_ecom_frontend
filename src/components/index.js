@@ -8,3 +8,4 @@ export { Blog } from "./Home/BlogSection/blog.component";
 export { Header } from "./header/header.component";
 export { Footer } from "./Footer/footer.component";
 export { Products } from "./Shop/products/products.component";
+export { OurTeam } from "./AboutUs/ourTeam/ourTeam.component";

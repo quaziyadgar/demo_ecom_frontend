@@ -3,8 +3,7 @@ import couch from "assets/couch.png";
 import dotSquare from "assets/dots-light.svg";
 import "./header.component.css";
 
-export const Header = ({param = true}) => {
-  console.log(param);
+export const Header = ({ param = true, title }) => {
   return (
     <div className="hero">
       <div className="container">
@@ -12,9 +11,9 @@ export const Header = ({param = true}) => {
           <div className="row justify-content-between">
             <div className="col-lg-5">
               <div className="intro-excerpt">
-                <h1>
+                {title?(<h1>{title}</h1>):(<h1>
                   Modern Interior <span class="d-block">Design Studio</span>
-                </h1>
+                </h1>)}
                 <p className="mb-4">
                   Donec vitae odio quis nisl dapibus malesuada. Nullam ac
                   aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
