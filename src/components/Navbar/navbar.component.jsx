@@ -94,7 +94,7 @@ export const MyNavbar = () => {
             <Nav className="me-auto position-absolute end-0">
               <Link to="/">Home</Link>
               <Link to="/shop">Shop</Link>
-              <Link to="/about">About</Link>
+              <Link to="/about">About us</Link>
               <Link to="/services">Services</Link>
               <Link to="/blog">Blog</Link>
               <Link to="/contact">Contact Us</Link>
