@@ -37,7 +37,7 @@ export const Header = ({ param = true, title }) => {
             </div>
           </div>
         ) : (
-          <h1 className="pb-5">Shop</h1>
+          <h1 className="pb-5">{title}</h1>
         )}
       </div>
     </div>

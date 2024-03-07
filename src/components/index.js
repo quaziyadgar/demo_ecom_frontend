@@ -12,3 +12,4 @@ export { OurTeam } from "./AboutUs/ourTeam/ourTeam.component";
 export { Services } from "./Services/services.component";
 export { BlogImages } from "./Blog/blogImages.components";
 export { ContactUs } from "./Contact/contact.component";
+export { CartItem } from "./Cart/cartItem.component";

@@ -4,3 +4,4 @@ export { AboutUs } from "./AboutUs/aboutus.page";
 export { Service } from "./Services/services.page";
 export { Blog } from "./Blog/blog.page";
 export { Contact } from "./Contact/contact.page";
+export { Cart } from "./Cart/cart.page";

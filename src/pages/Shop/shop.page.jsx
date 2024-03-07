@@ -4,7 +4,7 @@ import { Header, Products } from "components";
 export const Shop = () => {
   return (
     <>
-      <Header param={false} />
+      <Header param={false} title="Shop" />
       <Products />
     </>
   );
