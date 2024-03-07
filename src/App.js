@@ -1,5 +1,5 @@
 import { Footer, Navbar } from "components";
-import { Home, Shop, Aboutus } from "pages";
+import { Home, Shop, AboutUs, Service } from "pages";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -14,7 +14,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/shop" component={Shop} />
-          <Route exact path="/about" component={Aboutus} />
+          <Route exact path="/about" component={AboutUs} />
+          <Route exact path="/services" component={Service} />
         </Switch>
         <Footer />
       </Router>
