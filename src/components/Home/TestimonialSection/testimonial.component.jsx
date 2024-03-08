@@ -1,12 +1,14 @@
 import React from "react";
 import person1 from "assets/person-1.png";
 
+import Carousel from "react-bootstrap/Carousel";
+
 import "./testimonial.component.css";
 
 export const Testimonial = () => {
   return (
     <>
-      <div className="testimonial-section">
+      {/* <div className="testimonial-section">
         <div className="container">
           <div className="row mb-5">
             <div className="col-lg-7 mx-auto text-center">
@@ -163,6 +165,98 @@ export const Testimonial = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div> */}
+      <div className="testimonial-section">
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-lg-7 mx-auto text-center">
+              <h2 className="section-title">Testimonials</h2>
+            </div>
+          </div>
+          <Carousel className="carousel-height">
+            <Carousel.Item>
+              <div className="testimonial-block text-center">
+                <blockquote className="mb-5">
+                  <p>
+                    “Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                    odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
+                    Aliquam vulputate velit imperdiet dolor tempor tristique.
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Integer convallis
+                    volutpat dui quis scelerisque.”
+                  </p>
+                </blockquote>
+                <div className="author-info">
+                  <div className="author-pic">
+                    <img
+                      src={person1}
+                      alt="Maria Jones"
+                      className="img-fluid"
+                    />
+                  </div>
+                  <h3 className="font-weight-bold">Maria Jones</h3>
+                  <span className="position d-block mb-3">
+                    CEO, Co-Founder, XYZ Inc.
+                  </span>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="testimonial-block text-center">
+                <blockquote className="mb-5">
+                  <p>
+                    “Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                    odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
+                    Aliquam vulputate velit imperdiet dolor tempor tristique.
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Integer convallis
+                    volutpat dui quis scelerisque.”
+                  </p>
+                </blockquote>
+                <div className="author-info">
+                  <div className="author-pic">
+                    <img
+                      src={person1}
+                      alt="Maria Jones"
+                      className="img-fluid"
+                    />
+                  </div>
+                  <h3 className="font-weight-bold">Maria Jones</h3>
+                  <span className="position d-block mb-3">
+                    CEO, Co-Founder, XYZ Inc.
+                  </span>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="testimonial-block text-center">
+                <blockquote className="mb-5">
+                  <p>
+                    “Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                    odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
+                    Aliquam vulputate velit imperdiet dolor tempor tristique.
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Integer convallis
+                    volutpat dui quis scelerisque.”
+                  </p>
+                </blockquote>
+                <div className="author-info">
+                  <div className="author-pic">
+                    <img
+                      src={person1}
+                      alt="Maria Jones"
+                      className="img-fluid"
+                    />
+                  </div>
+                  <h3 className="font-weight-bold">Maria Jones</h3>
+                  <span className="position d-block mb-3">
+                    CEO, Co-Founder, XYZ Inc.
+                  </span>
+                </div>
+              </div>
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     </>
