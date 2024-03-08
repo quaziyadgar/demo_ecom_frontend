@@ -28,11 +28,7 @@ export const CartItem = () => {
                 <tbody>
                   <tr>
                     <td className="product-thumbnail">
-                      <img
-                        alt=""
-                        src={product1}
-                        className="img-fluid"
-                      />
+                      <img alt="" src={product1} className="img-fluid" />
                     </td>
                     <td className="product-name">
                       <h2 className="h5 text-black">Product 1</h2>
@@ -78,11 +74,7 @@ export const CartItem = () => {
                   </tr>
                   <tr>
                     <td className="product-thumbnail">
-                      <img
-                        alt=""
-                        src={product2}
-                        className="img-fluid"
-                      />
+                      <img alt="" src={product2} className="img-fluid" />
                     </td>
                     <td className="product-name">
                       <h2 className="h5 text-black">Product 2</h2>
@@ -161,7 +153,7 @@ export const CartItem = () => {
                 />
               </div>
               <div className="col-md-4">
-                <button className="cart-btn btn btn-black">Apply Coupon</button>
+                <button className="cart-btn btn-black">Apply Coupon</button>
               </div>
             </div>
           </div>
@@ -193,11 +185,11 @@ export const CartItem = () => {
                 </div>
                 <div className="row">
                   <div className="col-md-12">
-                    <button
-                      className="cart-btn btn-black btn-lg py-3 btn-block"
-                    >
-                      Proceed To Checkout
-                    </button>
+                    <Link to="/checkout">
+                      <button className="cart-btn btn-black btn-lg py-3 btn-block">
+                        Proceed To Checkout
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

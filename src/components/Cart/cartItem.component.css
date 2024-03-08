@@ -37,3 +37,14 @@
     background: #222222;
     border-color: #222222;
 }
+
+.table > thead > tr > th, .table > tbody > tr > td {
+    background-color: #EFF2F1 !important;
+    padding: 20px !important;
+    text-align: center;
+}
+
+
+.table > thead {
+    border-bottom: 2px solid black;
+}

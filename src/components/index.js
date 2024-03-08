@@ -13,3 +13,5 @@ export { Services } from "./Services/services.component";
 export { BlogImages } from "./Blog/blogImages.components";
 export { ContactUs } from "./Contact/contact.component";
 export { CartItem } from "./Cart/cartItem.component";
+export { CheckoutDetails } from "./Checkout/checkoutDetails.component";
+export { ThankYou } from "./Checkout/Thankyou/thankYou.component";
