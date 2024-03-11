@@ -9,6 +9,7 @@ import crossIcon from "assets/cross.svg";
 import "./productSection.component.css";
 
 export const ProductSection = () => {
+  let a = [product1, product2, product3];
   return (
     <div className="product-section">
       <div className="container">
@@ -26,23 +27,21 @@ export const ProductSection = () => {
           </div>
           {/* End Column 1 */}
           {/* Start Column 2 */}
-          <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-            <div className="product-item" to="/cart">
-              <img
-                src={product1}
-                className="img-fluid product-thumbnail"
-                alt=""
-              />
-              <h5 className="product-title">Nordic Chair</h5>
-              <strong className="product-price">$50.00</strong>
-              <span className="icon-cross">
-                <img src={crossIcon} className="img-fluid" alt="" />
-              </span>
+          {a.map((product) => (
+            <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+              <div className="product-item" to="/cart">
+                <img src={product} className="img-fluid product-thumbnail" alt="" />
+                <h5 className="product-title">Nordic Chair</h5>
+                <strong className="product-price">$50.00</strong>
+                <span className="icon-cross">
+                  <img src={crossIcon} className="img-fluid" alt="" />
+                </span>
+              </div>
             </div>
-          </div>
+          ))}
           {/* End Column 2 */}
           {/* Start Column 3 */}
-          <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          {/* <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <div className="product-item" to="/cart">
               <img
                 src={product2}
@@ -58,7 +57,7 @@ export const ProductSection = () => {
           </div>
           {/* End Column 3 */}
           {/* Start Column 4 */}
-          <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          {/* <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <div className="product-item" to="/cart">
               <img
                 src={product3}
@@ -71,7 +70,7 @@ export const ProductSection = () => {
                 <img src={crossIcon} className="img-fluid" alt="" />
               </span>
             </div>
-          </div>
+          </div> */}
           {/* End Column 4 */}
         </div>
       </div>
