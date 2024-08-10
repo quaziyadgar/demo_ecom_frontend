@@ -1,8 +1,10 @@
 import React from "react";
+
 import bagIcon from "assets/bag.svg";
 import truckIcon from "assets/truck.svg";
 import supportIcon from "assets/support.svg";
 import returnIcon from "assets/return.svg";
+
 
 import "./services.component.css";
 
